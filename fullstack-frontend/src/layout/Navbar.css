@@ -1,0 +1,43 @@
+/* For smaller navbar */
+.navbar-small {
+  padding: 0.5rem 1rem;
+}
+
+/* Button styles */
+.btn-toggle-dark-mode {
+  background-color: #ffc107;
+  border-color: #ffc107;
+  color: #212529;
+  margin-left: 10px;
+}
+
+.btn-toggle-dark-mode:hover {
+  background-color: #e0a800;
+  border-color: #d39e00;
+  color: #fff;
+}
+
+/* Light mode background */
+/*.light-mode-bg {
+background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
+  background-size: cover;
+  
+}*/
+
+/* Dark mode background */
+.dark-mode-bg {
+background-image: url("https://www.transparenttextures.com/patterns/crissxcross.png");
+  background-size: cover;
+
+}
+
+/* Dark mode body class */
+body.dark-mode {
+  background-color: #343a40;
+  color: #f8f9fa;
+}
+
+body.light-mode {
+  background-color: #f8f9fa;
+  color: #343a40;
+}

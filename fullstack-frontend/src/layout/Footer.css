@@ -1,0 +1,16 @@
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background-color: #343a40; /* Dark background */
+  color: white; /* White text */
+  height: 70px; /* Small height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0; /* Ensure there’s enough padding */
+}
+
+.footer span {
+  font-size: 14px;
+}

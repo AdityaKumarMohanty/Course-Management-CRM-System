@@ -1,0 +1,31 @@
+/* Table Styles */
+.table {
+    margin-top: 20px;
+  }
+  
+  .table th,
+  .table td {
+    text-align: center;
+  }
+  
+  /* Pagination Styles */
+  .pagination {
+    margin-top: 20px;
+  }
+  
+  .pagination .page-item.active .page-link {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: white;
+  }
+  
+  .pagination .page-item .page-link {
+    color: #007bff;
+    cursor: pointer;
+    border: 1px solid #dee2e6;
+  }
+  
+  .pagination .page-item .page-link:hover {
+    background-color: #e9ecef;
+  }
+  

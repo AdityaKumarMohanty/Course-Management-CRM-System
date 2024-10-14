@@ -1,0 +1,85 @@
+/* ViewProducts.css */
+
+/* Styling the container */
+.container {
+    margin-top: 20px;
+    padding: 20px;
+  }
+  
+  /* Adding padding to the table */
+  .table {
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  /* Styling the table header */
+  .table thead {
+    background-color: #343a40;
+    color: white;
+  }
+  
+  .table thead th {
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  /* Styling the table rows */
+  .table tbody tr {
+    text-align: center;
+  }
+  
+  .table tbody td {
+    padding: 12px;
+    vertical-align: middle;
+  }
+  
+  /* Buttons for actions (View, Edit, Delete) */
+  .btn {
+    padding: 6px 12px;
+    font-size: 14px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+  }
+  
+  .btn-outline-primary {
+    color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    border: none;
+  }
+  
+  /* Pagination controls */
+  .pagination .page-item .page-link {
+    color: #007bff;
+  }
+  
+  .pagination .page-item.active .page-link {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .pagination .page-item .page-link:hover {
+    background-color: #e9ecef;
+    border-color: #dee2e6;
+  }
+  
+  /* Adjusting table size for smaller screens */
+  @media (max-width: 768px) {
+    .table {
+      font-size: 14px;
+    }
+  
+    .btn {
+      padding: 5px 10px;
+      font-size: 12px;
+    }
+  }
+  
